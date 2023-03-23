@@ -1,4 +1,6 @@
 import { Container, Table } from "react-bootstrap";
+import ModalGiveResponse from "../components/ModalGiveResponse";
+
 
 export default function ReservasiData() {
     return (
@@ -23,7 +25,16 @@ export default function ReservasiData() {
                         <td>18 april 2022</td>
                         <td>Waiting Live Consultant</td>
                         <td>
-                            <img src={process.env.PUBLIC_URL + "/images/searc.png"} alt="search" style={{width:"20px"}} />
+                            <div className="dropdown">
+                                <span className="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src={process.env.PUBLIC_URL + "/images/searc.png"} alt="search" style={{ width: "20px" }} />
+                                </span>
+                                <ul className="dropdown-menu">
+                                    <li>
+                                        <ModalGiveResponse />
+                                    </li>
+                                </ul>
+                            </div>
                         </td>
                     </tr>
                 </tbody>

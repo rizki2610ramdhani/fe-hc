@@ -7,9 +7,9 @@ export default function Home() {
             <img src={process.env.PUBLIC_URL + "/images/Jumbotron.png"} alt="jumbotron" className='img-fluid'/>
             <h2 className="text-color-pink text-bold py-5 text-center">Artikel Kesehatan</h2>
             <Row>
-                <Col md={3} sm={6} xs={12} style={{border:"1px solid red"}}>
+                <Col md={3} sm={6} xs={12}>
                     <Link to="/article" style={{textDecoration:"none"}}>
-                        <Card style={{ width: '18rem' }} className='mx-auto my-3'>
+                        <Card style={{ boxShadow:"0 0 5px gray" }} className='mx-auto my-2'>
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/imgt1.png"} />
                             <Card.Body>
                                 <Card.Title style={{color:"black"}}>Alasan Diffuser Antiseptik Sebaiknya Dihindari</Card.Title>
@@ -20,9 +20,9 @@ export default function Home() {
                         </Card>
                     </Link>
                 </Col>
-                <Col md={3} sm={6} xs={12} style={{border:"1px solid red"}}>
+                <Col md={3} sm={6} xs={12}>
                     <Link to="/article" style={{textDecoration:"none"}}>
-                        <Card style={{ width: '18rem' }} className='mx-auto my-3'>
+                        <Card style={{ boxShadow:"0 0 5px gray" }} className='mx-auto my-2'>
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/imgt1.png"} />
                             <Card.Body>
                                 <Card.Title style={{color:"black"}}>Alasan Diffuser Antiseptik Sebaiknya Dihindari</Card.Title>
@@ -33,9 +33,9 @@ export default function Home() {
                         </Card>
                     </Link>
                 </Col>
-                <Col md={3} sm={6} xs={12} style={{border:"1px solid red"}}>
+                <Col md={3} sm={6} xs={12}>
                     <Link to="/article" style={{textDecoration:"none"}}>
-                        <Card style={{ width: '18rem' }} className='mx-auto my-3'>
+                        <Card style={{ boxShadow:"0 0 5px gray" }} className='mx-auto my-2'>
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/imgt1.png"} />
                             <Card.Body>
                                 <Card.Title style={{color:"black"}}>Alasan Diffuser Antiseptik Sebaiknya Dihindari</Card.Title>
@@ -46,9 +46,9 @@ export default function Home() {
                         </Card>
                     </Link>
                 </Col>
-                <Col md={3} sm={6} xs={12} style={{border:"1px solid red"}}>
+                <Col md={3} sm={6} xs={12}>
                     <Link to="/article" style={{textDecoration:"none"}}>
-                        <Card style={{ width: '18rem' }} className='mx-auto my-3'>
+                        <Card style={{ boxShadow:"0 0 5px gray" }} className='mx-auto my-2'>
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/imgt1.png"} />
                             <Card.Body>
                                 <Card.Title style={{color:"black"}}>Alasan Diffuser Antiseptik Sebaiknya Dihindari</Card.Title>
@@ -59,9 +59,9 @@ export default function Home() {
                         </Card>
                     </Link>
                 </Col>
-                <Col md={3} sm={6} xs={12} style={{border:"1px solid red"}}>
+                <Col md={3} sm={6} xs={12}>
                     <Link to="/article" style={{textDecoration:"none"}}>
-                        <Card style={{ width: '18rem' }} className='mx-auto my-3'>
+                        <Card style={{ boxShadow:"0 0 5px gray" }} className='mx-auto my-2'>
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/imgt1.png"} />
                             <Card.Body>
                                 <Card.Title style={{color:"black"}}>Alasan Diffuser Antiseptik Sebaiknya Dihindari</Card.Title>
@@ -72,9 +72,9 @@ export default function Home() {
                         </Card>
                     </Link>
                 </Col>
-                <Col md={3} sm={6} xs={12} style={{border:"1px solid red"}}>
+                <Col md={3} sm={6} xs={12}>
                     <Link to="/article" style={{textDecoration:"none"}}>
-                        <Card style={{ width: '18rem' }} className='mx-auto my-3'>
+                        <Card style={{ boxShadow:"0 0 5px gray" }} className='mx-auto my-2'>
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/imgt1.png"} />
                             <Card.Body>
                                 <Card.Title style={{color:"black"}}>Alasan Diffuser Antiseptik Sebaiknya Dihindari</Card.Title>
